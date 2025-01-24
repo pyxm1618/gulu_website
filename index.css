@@ -1,0 +1,305 @@
+.page {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngd8c6003b46889617ee62397f68e82bff07220f82dded0181e260d525b464e569) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.box_1 {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+}
+
+.image_1 {
+  width: 157px;
+  height: 150px;
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+.text-wrapper_1 {
+  box-shadow: inset 0px 0px 1px 0px rgba(15, 25, 33, 1);
+  background-color: rgba(36, 58, 77, 1);
+  border-radius: 12px;
+  height: 46px;
+  border: 3px solid rgba(98, 122, 140, 1);
+  width: 146px;
+  margin-top: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-family: PingFangSC-Regular, sans-serif;
+  text-align: center;
+}
+
+.group_2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 21px;
+}
+
+.text-wrapper_2,
+.text-wrapper_3,
+.text-wrapper_4,
+.text-wrapper_5 {
+  box-shadow: inset 0px 0px 1px 0px rgba(15, 25, 33, 1);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  height: 46px;
+  border: 3px solid rgba(98, 122, 140, 1);
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_2,
+.text_4,
+.text_6,
+.text-wrapper_5 .text_8 {
+  text-shadow: 0px 0px 4px rgba(6, 41, 54, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-family: PingFangSC-Semibold, sans-serif;
+  font-weight: 600;
+}
+
+.text_3,
+.text_5,
+.text_7,
+.text_9 {
+  text-shadow: 0px 0px 4px rgba(6, 41, 54, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-family: PingFangSC-Regular, sans-serif;
+  margin: 0 5px;
+}
+
+.block_2 {
+  width: 521px;
+  max-width: 100%;
+  padding: 27px 20px;
+  margin: 40px auto;
+  background: url(https://lanhu-oss.lanhuapp.com/SketchPngb945b29e9ba315f374d94a483fef41060395e6cd9571ad05c7d2c95ee4ea7a34) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.text-wrapper_5 {
+  text-shadow: 0px 2px 2px rgba(114, 64, 43, 0.7);
+  font-family: PingFangSC-Medium, sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.text-content.highlight {
+  color: rgba(188, 159, 87, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.qrcode-wrapper {
+  position: absolute;
+  right: 40px;
+  bottom: -250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  z-index: 10;
+}
+
+.qrcode-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.qrcode-tip {
+  color: rgba(188, 159, 87, 1);
+  font-size: 20px;
+  font-family: PingFangSC-Medium, sans-serif;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  width: calc(100% - 80px);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.text-block {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.text-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.8;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.text-content:last-child {
+  margin-bottom: 0;
+}
+
+.text-content.highlight {
+  color: rgba(188, 159, 87, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+  .box_1 {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .image_1 {
+    width: 120px;
+    height: 115px;
+    margin-top: 40px;
+  }
+
+  .block_2 {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .text_9 {
+    font-size: 40px;
+  }
+
+  .qrcode-wrapper {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+  }
+
+  .qrcode-image {
+    width: 160px;
+    height: 160px;
+  }
+
+  .qrcode-tip {
+    font-size: 16px;
+  }
+
+  .content-section {
+    position: relative;
+    left: 0;
+    top: 20px;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .text-block {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .text-content {
+    font-size: 16px;
+  }
+
+  .text-content.highlight {
+    font-size: 18px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+}
+
+.beian-info {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.beian-info a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.beian-info a:hover {
+  color: #fff;
+}
+
+.beian-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.divider {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* 在响应式部分添加 */
+@media screen and (max-width: 768px) {
+  .beian-info {
+    font-size: 12px;
+  }
+  
+  .beian-icon {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .divider {
+    margin: 0 5px;
+  }
+} 
